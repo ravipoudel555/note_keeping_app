@@ -1,0 +1,50 @@
+name: note_app_ddd
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  another_flushbar: ^1.10.24
+  auto_route: ^2.3.0
+
+  dartz: ^0.10.0
+  firebase_auth: ^3.1.0
+  firebase_core: ^1.6.0
+  cloud_firestore: ^2.5.1
+
+  flutter_bloc: ^7.2.0
+  freezed_annotation: ^0.14.2
+  get_it: ^7.2.0
+  google_sign_in: ^5.1.0
+  injectable: ^1.5.0
+
+  json_annotation: ^4.0.1
+  kt_dart: ^0.9.1
+  uuid: ^3.0.4
+  rxdart: ^0.27.2
+  flutter_hooks: ^0.18.0
+  provider: ^6.0.0
+  flutter_slidable: ^0.6.0
+  implicitly_animated_reorderable_list: ^0.4.1
+
+dev_dependencies:
+  auto_route_generator: ^2.1.0
+  build_runner: ^2.1.2
+  flutter_test:
+    sdk: flutter
+  freezed: ^0.14.2
+  injectable_generator: ^1.4.1
+  json_serializable: ^4.1.4
+  lint: ^1.6.0
+
+flutter:
+  uses-material-design: true
